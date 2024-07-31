@@ -2,40 +2,6 @@
 
 This repository contains automated tests for the SimplyHired website using Selenium and Pytest.
 
-## Project Structure
-
-SimplyHired_Website_Testing/
-├── .venv/
-├── pages/
-│ ├── init.py
-│ ├── BasePage.py
-│ ├── pages_job_apply.py
-│ ├── pages_job_search.py
-│ ├── pages_signin.py
-├── TestData/
-│ ├── init.py
-│ ├── Datasheet.xlsx
-├── tests/
-│ └── tests/
-│ ├── init.py
-│ ├── test_job_apply.py
-│ ├── test_job_search.py
-│ ├── test_Signin.py
-├── tests_report/
-│ ├── assets/
-│ └── screenshots/
-├── utils/
-│ ├── init.py
-│ ├── locators.py
-│ ├── report_generator.py
-│ ├── screenshot.py
-├── conftest.py
-├── jobs.csv
-├── main.py
-├── pytest.ini
-└── run_test.py
-
-
 ### Directory Descriptions
 
 - `pages/`: Contains the Page Object Model (POM) classes that abstract the interactions with web pages.
